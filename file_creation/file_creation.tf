@@ -1,9 +1,4 @@
-
-fefghp_WPqq1NRHumiolSfefrgregergmRTImYJQMwdLMhhe4MahaKfedfefef
-
-
-
-New 
-ef
-
-fdv
+resource "local_file" "foo" {
+  content  = "foo!"
+  filename = "F:\Learning\Terraform\terraform_practice\file_creation.txt"
+}
